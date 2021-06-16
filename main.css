@@ -264,7 +264,7 @@ p {
   flex-direction: column;
   padding: 20px;
   border-radius: 10px;
-  background-image: url(Images/633f69b22a440e31d8e4eac63a36b78d.jpg);
+  background-image: url("Images/633f69b22a440e31d8e4eac63a36b78d.jpg");
   background-size: cover;
   margin: 10px 5px;
   position: relative;
