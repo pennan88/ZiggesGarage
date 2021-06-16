@@ -187,7 +187,7 @@ p {
 /* End Header section*/
 /* Hero Section */
 #hero {
-  background-image: url("/Images/1334965-dia-de-los-muertos-fargstark-bakgrund-gratis-vector.jpg");
+  background-image: url("Images/1334965-dia-de-los-muertos-fargstark-bakgrund-gratis-vector.jpg");
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -264,7 +264,7 @@ p {
   flex-direction: column;
   padding: 20px;
   border-radius: 10px;
-  background-image: url(/Images/633f69b22a440e31d8e4eac63a36b78d.jpg);
+  background-image: url(Images/633f69b22a440e31d8e4eac63a36b78d.jpg);
   background-size: cover;
   margin: 10px 5px;
   position: relative;
