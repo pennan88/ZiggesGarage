@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 
 * {
   padding: 0;
@@ -9,7 +10,7 @@
 
 html {
   font-size: 10px;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Viaoda Libre', cursive;
   background-color: #292929;
   scroll-behavior: smooth;
 }
@@ -18,6 +19,7 @@ a {
   text-decoration: none;
   color: #f15a28;
 }
+
 
 .container {
   min-height: 100vh;
@@ -128,7 +130,7 @@ p {
 }
 
 #header .header .brand img {
-  width: 30%;
+  width: 40%;
 }
 #header .hamburger {
   height: 37px;
@@ -222,6 +224,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   margin-top: 36px;
+  border-radius: 15px;
   transition: 0.3s ease;
   transition-property: background-color, color;
 }
@@ -234,6 +237,9 @@ p {
 /* End Hero Section */
 
 /* Start Menu Section */
+#menu{
+  z-index: 1;
+}
 #menu .menu {
   flex-direction: column;
   text-align: center;
@@ -296,15 +302,28 @@ p {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-
+#menu .menu-item h2 a:hover{
+color:#1d0834;
+}
 #menu .menu-item p {
   color: white;
   text-align: left;
+  top: 0
 }
 /* End Menu Section */
 
 /* Contact Section */
+.flowerimg{
+  position: absolute;
+  z-index: 2;
+  width: fit-content;
+text-align: center;
+  width: 100%;
+  top: -20px;
+  max-width: 1000px;
+  height: auto;
 
+}
 .test {
   position: absolute;
   z-index: -1;
@@ -316,8 +335,9 @@ p {
 }
 
 #contacts {
-  background-color: #292626;
+  /* background-color: #292626; */
   position: relative;
+  /* z-index: 1; */
 }
 #contacts .contacts {
   flex-direction: column;
@@ -405,6 +425,9 @@ p {
 
 /* End Contact Section */
 /* OpenHours Section */
+#OpenHours{
+  z-index: 1;
+}
 #OpenHours .OpenHours {
   flex-direction: column-reverse;
   text-align: center;
@@ -518,6 +541,12 @@ p {
 }
 
 @media screen and (min-width: 1024px) {
+  p{
+    font-size: 1.8rem;
+  }
+  .section-title{
+    font-size: 4.3rem;
+  }
   #header .hamburger {
     display: none;
   }
@@ -536,6 +565,12 @@ p {
   }
   #header .nav-list ul a::after {
     display: none;
+  }
+
+  #OpenHours .col-left{
+  margin: 30px;
+  padding: 10px 30px;
+
   }
 }
 /* End Media Query Tablet */
